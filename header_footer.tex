@@ -1,0 +1,18 @@
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% Set header (left aligned with your last name)
+\fancyhead[L]{Randrup}
+
+% Set header (right aligned with "Assignment 5")
+\fancyhead[R]{Assignment 5}
+
+% Set footer (centered with page number)
+\fancyfoot[C]{\thepage}
+
+% Ensure header and footer are applied starting from the first page
+\renewcommand{\headrulewidth}{0.4pt} % Adds a line to the header
+\renewcommand{\footrulewidth}{0.4pt} % Adds a line to the footer
+
+% Remove the title page or other exceptions to header/footer application
+\thispagestyle{fancy} % Ensures the first page uses the fancy style
